@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "voiceflow",
+  "version": "0.1.0",
+  "identifier": "com.voiceflow.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "voiceflow",
+        "width": 380,
+        "height": 100,
+        "resizable": false,
+        "transparent": true,
+        "decorations": false,
+        "shadow": false,
+        "alwaysOnTop": true,
+        "skipTaskbar": true,
+        "visible": true
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "resources": {
+      "../bin/whisper-cli.exe": "bin/whisper-cli.exe",
+      "../bin/ggml.dll": "bin/ggml.dll",
+      "../bin/whisper.dll": "bin/whisper.dll",
+      "../bin/ggml-base.dll": "bin/ggml-base.dll",
+      "../bin/ggml-cpu.dll": "bin/ggml-cpu.dll",
+      "../bin/ggml-cpu-alderlake.dll": "bin/ggml-cpu-alderlake.dll",
+      "../bin/ggml-cpu-cannonlake.dll": "bin/ggml-cpu-cannonlake.dll",
+      "../bin/ggml-cpu-cascadelake.dll": "bin/ggml-cpu-cascadelake.dll",
+      "../bin/ggml-cpu-cooperlake.dll": "bin/ggml-cpu-cooperlake.dll",
+      "../bin/ggml-cpu-haswell.dll": "bin/ggml-cpu-haswell.dll",
+      "../bin/ggml-cpu-icelake.dll": "bin/ggml-cpu-icelake.dll",
+      "../bin/ggml-cpu-ivybridge.dll": "bin/ggml-cpu-ivybridge.dll",
+      "../bin/ggml-cpu-piledriver.dll": "bin/ggml-cpu-piledriver.dll",
+      "../bin/ggml-cpu-sandybridge.dll": "bin/ggml-cpu-sandybridge.dll",
+      "../bin/ggml-cpu-sapphirerapids.dll": "bin/ggml-cpu-sapphirerapids.dll",
+      "../bin/ggml-cpu-skylakex.dll": "bin/ggml-cpu-skylakex.dll",
+      "../bin/ggml-cpu-sse42.dll": "bin/ggml-cpu-sse42.dll",
+      "../bin/ggml-cpu-x64.dll": "bin/ggml-cpu-x64.dll",
+      "../bin/ggml-cpu-zen4.dll": "bin/ggml-cpu-zen4.dll",
+      "../bin/libomp140.x86_64.dll": "bin/libomp140.x86_64.dll",
+      "../models/ggml-tiny.en.bin": "models/ggml-tiny.en.bin",
+      "../bin/SDL2.dll": "bin/SDL2.dll"
+    },
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser"
+      }
+    }
+  }
+}

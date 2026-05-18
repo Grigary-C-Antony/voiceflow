@@ -1,0 +1,12 @@
+{
+  "identifier": "default",
+  "description": "Default permissions",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "global-shortcut:allow-register",
+    "global-shortcut:allow-unregister"
+  ]
+}
