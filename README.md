@@ -29,6 +29,7 @@ Built as a weekend project to experiment with local AI, speech recognition, and 
 📹 **Watch Demo:**  
 ![VoiceFlow Screenrecord](./assets/ezgif-44363a7b3d770644.gif)
 
+### [Videolink](https://github.com/Grigary-C-Antony/voiceflow/raw/refs/heads/main/assets/Screen%20Recording%202026-05-19%20145612.mp4)
 ---
 
 ## Download
@@ -44,8 +45,6 @@ Download the latest Windows executable from Releases:
 ---
 
 ## Screenshots
-
-_Add screenshots here_
 
 
 ![VoiceFlow Screenshot](./assets/Screenshot%202026-05-19%20151101.png)
@@ -87,7 +86,7 @@ Install:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/voiceflow.git
+git clone https://github.com/Grigary-C-Antony/voiceflow.git
 cd voiceflow
 ```
 
