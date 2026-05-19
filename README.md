@@ -27,7 +27,7 @@ Built as a weekend project to experiment with local AI, speech recognition, and 
 ## Demo
 
 📹 **Watch Demo:**  
-[Add demo video link here]
+![VoiceFlow Screenrecord](./assets/ezgif-44363a7b3d770644.gif)
 
 ---
 
