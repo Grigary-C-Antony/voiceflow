@@ -49,7 +49,7 @@ Download the latest Windows executable from Releases:
 
 ![VoiceFlow Screenshot](./assets/Screenshot%202026-05-19%20151101.png)
 ![VoiceFlow Screenshot](./assets/Screenshot%202026-05-19%20151111.png)
-![VoiceFlow Screenshot](./assets/Screenshot%202026-05-19%20151129.png)
+
 
 
 ---
