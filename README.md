@@ -47,9 +47,11 @@ Download the latest Windows executable from Releases:
 
 _Add screenshots here_
 
-```md
-![VoiceFlow Screenshot](./screenshots/app.png)
-````
+
+![VoiceFlow Screenshot](./assets/Screenshot%202026-05-19%20151101.png)
+![VoiceFlow Screenshot](./assets/Screenshot%202026-05-19%20151111.png)
+![VoiceFlow Screenshot](./assets/Screenshot%202026-05-19%20151129.png)
+
 
 ---
 
